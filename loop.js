@@ -169,3 +169,28 @@
 // console.log(min)
 
 
+//function declaration
+// function sum(a,b){
+   
+//     return `Sum of two numbers are ${a+b}`;
+// }
+
+// //function expression
+// let result = sum(21,23)
+// console.log(result)
+
+// var twoSum = function(nums, target) {
+//     let n = nums.length;
+//     for(let i=0; i<n; i++){
+//         for(let j=i+1; j<n; j++){
+//             if(nums[i]+nums[j]==target){
+//                 console.log([i,j])
+//             }
+//         }
+//     }
+// };
+
+// twoSum([2,3,54,6,7,2],9)
+
+// let i = 202
+// console.log(i[0])
