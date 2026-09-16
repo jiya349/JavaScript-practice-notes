@@ -44,8 +44,8 @@
 // }while(i<str.length)
 
 
-//for loop
-//initialization
+// for loop
+// initialization
 // let v = 10
 
 // for(let i=10;i>0 ;i--){
@@ -70,7 +70,7 @@
 // }
 
 
-//arrays
+// arrays
 // let str1 = "abcd"
 // let str2 = "abcd"
 
@@ -109,9 +109,9 @@
 
 // console.log(arr[2][2])
 
-//objects
+// objects
 
-//key:value
+// key:value
 // let obj = {
 //     name:"Batman",
 //     age:23,
@@ -169,7 +169,7 @@
 // console.log(min)
 
 
-//function declaration
+// function declaration
 // function sum(a,b){
    
 //     return `Sum of two numbers are ${a+b}`;
@@ -194,3 +194,18 @@
 
 // let i = 202
 // console.log(i[0])
+
+
+//Prime number
+
+let num = 7
+function isPrime(num){
+    for(let i = 2; i<Math.sqrt(num); i++){
+        if(num%i==0){
+          console.log("Not a prime number..")
+          return;
+        }
+    }
+    console.log("Number is prime")
+}
+isPrime(num)
